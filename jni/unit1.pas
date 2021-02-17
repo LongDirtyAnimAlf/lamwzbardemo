@@ -76,7 +76,7 @@ begin
   end
   else
   begin
-    ShowMessage('No permission ! Please allow app to use the camera.',TGravity.gvCenter,TShowLength.slLong);
+    ShowMessage('No camera permission ! Please allow app to use the camera.',TGravity.gvCenter,TShowLength.slLong);
   end;
 end;
 
